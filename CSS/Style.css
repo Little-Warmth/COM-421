@@ -1,16 +1,64 @@
 body {
     background-color: rgb(33, 57, 110);
     color: white;
-    font-size: 14px;
+    font-size: 18px;
   }
 a{
     font-family: 'Times New Roman', Times, serif;
     color:white;
     text-align: center;
-    font-size: 16px;
+    font-size: 20px;
     text-decoration: none;
 }
-a:hover{
-  color: white;
-  font-weight: bold;
+.topnav {
+  background-color: #262626;
+  overflow: hidden;
+}
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 18px;
+  text-decoration: none;
+  font-size: 17px;
+}
+.topnav a:hover {
+  background-color: #ddd;
+  color: rgb(116, 18, 134);
+}
+aside {
+  width: 40%;
+  padding-left: 0.5rem;
+  margin-left: 0.5rem;
+  float: right;
+  box-shadow: inset 5px 0 5px -5px #ddd;
+  color: #ddd;
+}
+aside > p {
+  margin: 0.5rem;
+}
+a[href="tutorial_spreadsheet.xlsx"]:hover
+{
+  background-color: #ddd;
+  color: rgb(116, 18, 134);
+}
+a[href="http://www.ats.ucla.edu/stat/mult_pkg/whatstat/default.htm"]:hover
+{
+  background-color: #ddd;
+  color: rgb(116, 18, 134);
+}
+a[href="https://scholar.google.com/schhp?hl=en"]:hover
+{
+  background-color: #ddd;
+  color: rgb(116, 18, 134);
+}
+a[href="https://books.google.com/books?uid=103947820777686862976&hl=en"]:hover
+{
+  background-color: #ddd;
+  color: rgb(116, 18, 134);
+}
+a[href="https://clarivate.com/products/scientific-and-academic-research/research-discovery-and-workflow-solutions/webofscience-platform/"]:hover
+{
+  background-color: #ddd;
+  color: rgb(116, 18, 134);
 }
