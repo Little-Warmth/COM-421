@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 body {
     background-color: rgb(33, 57, 110);
     color: white;
@@ -13,4 +14,21 @@ a{
 a:hover{
   color: white;
   font-weight: bold;
+=======
+body {
+    background-color: rgb(33, 57, 110);
+    color: white;
+    font-size: 14px;
+  }
+a{
+    font-family: 'Times New Roman', Times, serif;
+    color:white;
+    text-align: center;
+    font-size: 16px;
+    text-decoration: none;
+}
+a:hover{
+  color: white;
+  font-weight: bold;
+>>>>>>> 47cfe4bf07eb7f395cafb82f0620d06341da02eb
 }
