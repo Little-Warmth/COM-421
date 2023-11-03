@@ -1,0 +1,16 @@
+body {
+    background-color: rgb(33, 57, 110);
+    color: white;
+    font-size: 14px;
+  }
+a{
+    font-family: 'Times New Roman', Times, serif;
+    color:white;
+    text-align: center;
+    font-size: 16px;
+    text-decoration: none;
+}
+a:hover{
+  color: white;
+  font-weight: bold;
+}
